@@ -35,6 +35,13 @@ def main():
             sentimentAnalysis = ai_client.analyze_sentiment(documents=[text])[0]
             print("\nSentiment: {}".format(sentimentAnalysis.sentiment))
 
+            # Get key phrases
+            phrases = ai_client.extract_key_phrases(documents=[text])[0].key_phrases
+            if len(phrases) > 0:
+                print("\nKey Phrases:")
+                for phrase in phrases:
+                    print('\t{}'.format(phrase))
+
 
 
 
