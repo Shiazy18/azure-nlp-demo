@@ -2,7 +2,7 @@
 
 ## to run locally 
 
--- run the below command 
+- run the below command 
 
 ```code
 python -m venv textanalyze
@@ -10,12 +10,13 @@ python -m venv textanalyze
 pip install -r requirements.txt azure-ai-textanalytics==5.3.0
 ```
 
--- add the below values in .env file
+- add the below values in .env file
 
 ```code
 AI_SERVICE_ENDPOINT=your_azure_language_services_endpoint
 AI_SERVICE_KEY=your_azure_language_services_API_Key
 ```
+---
 
 ## Summary 
 
