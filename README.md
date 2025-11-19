@@ -20,6 +20,8 @@ AI_SERVICE_KEY=your_azure_language_services_API_Key
 
 ## Summary 
 
+Azure AI Language provides several NLP capabilities, including the key phrase identification, text summarization, and sentiment analysis. The Language service also provides custom features like custom question answering and custom text classification.
+
 `evaluate sentiment`: Sentiment analysis is a commonly used technique to classify text as positive or negative (or possible neutral or mixed). It's commonly used to analyze social media posts, product reviews, and other items where the sentiment of the text may provide useful insights.
 
 `identify key phrases`: It can be useful to identify key phrases in a body of text to help determine the main topics that it discusses.
@@ -27,3 +29,13 @@ AI_SERVICE_KEY=your_azure_language_services_API_Key
 `extract entities`: Often, documents or other bodies of text mention people, places, time periods, or other entities. The text Analytics API can detect multiple categories (and subcategories) of entity in your text.
 
 `extract linked entities`: In addition to categorized entities, the Text Analytics API can detect entities for which there are known links to data sources, such as Wikipedia.
+
+---
+
+## Custom text classification
+
+To test the custom text classification of the Azure AI Language service, we'll configure the model using Language Studio then use a Python application to test it.
+
+
+
+
